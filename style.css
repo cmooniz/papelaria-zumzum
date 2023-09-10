@@ -1,0 +1,18 @@
+body {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+.container {
+	flex: 1; /* Cresce para ocupar todo o espaço disponível */
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+header {
+	display: flex;
+	flex-direction: column;
+}
+header h1 {
+	padding: 16px;
+}
